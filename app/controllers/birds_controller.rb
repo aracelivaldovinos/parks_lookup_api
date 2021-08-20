@@ -1,6 +1,6 @@
 class BirdsController < ApplicationController
   def index
-    @birds = Bird.all
+    @birds = Bird.page(params[:page])
     json_response(@birds)
   end
   

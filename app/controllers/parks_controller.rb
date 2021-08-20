@@ -1,5 +1,4 @@
 class ParksController < ApplicationController
-
   def index
     @parks = Park.page(params[:page])
  
@@ -21,7 +20,7 @@ class ParksController < ApplicationController
     if @park.update!(park_params)
       render status: 200, json: {
       message: "This park has been updated successfully."
-     }
+    }
     end
   end
 
