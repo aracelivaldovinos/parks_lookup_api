@@ -71,3 +71,4 @@ parks_list = [
 parks_list.each do |item1, item2, item3, item4|
   Park.create( area: item1, description: item2, state: item3, name: item4)
 end
+

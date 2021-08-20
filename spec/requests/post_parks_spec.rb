@@ -36,4 +36,7 @@ describe "post a park route without presence of state", :type => :request do
   it 'returns a error message status' do
     expect(JSON.parse(response.body)['message']).to eq("Validation failed: State can't be blank")
   end
+  it 'returns status code 422' do
+    expect(response).to have_http_status(422)
+  end
 end
