@@ -29,10 +29,13 @@ _You have the freedom to build out your APIs as you wish. At the very least, you
 * _Complete documentation of API endpoints and the further exploration you did._
 
 ## API Endpoints
-| First Header  | Second Header |
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
+
+| HTTP Request  |    Route      |  CRUD Action  |  Description  |     Url      | Description   |Description  |     Url      | Description   |
+| ------------- | ------------- | ------------- | ------------- |------------- | ------------- |-------------|------------- |-------------| 
+| Content Cell  | Content Cell  | Content Cell  | Content Cell  | Content Cell | Content Cell  |Content Cell | Content Cell| Content Cell  |
+| Content Cell  | Content Cell  | Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  | Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  | Content Cell  | Content Cell  |
 
 
 ## Setup/Installation Requirements
