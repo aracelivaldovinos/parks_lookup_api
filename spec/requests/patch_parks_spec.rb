@@ -14,7 +14,7 @@ describe "update a park route", :type => :request do
 end
 
 describe "update a park route without an area", :type => :request do
-  let!(:parks) { 
+  let!(:park) { 
       FactoryBot.create(:park, area: 'test_area', description: 'test_description', state: 'test_state', name: 'test_name', id: 1)
   }
   before { put '/parks/1', params: {area: ''} }
