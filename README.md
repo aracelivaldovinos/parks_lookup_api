@@ -11,63 +11,29 @@
 * _JavaScript\jQuery_
 * _HTML_
 * _Bootsrap\CSS_
-* _Ruby Gems: Capybara, Devise, jQuery-Rails, Launchy, Pry, RSpec-Rails, Shoulda-Matchers, SimpleCov_
+* _Ruby Gems: Faker, Kaminari, Launchy, Pry, RSpec-Rails, Shoulda-Matchers, SimpleCov_
 
 
 
 ## Description
-_This project practices user authentication and authorization with Ruby on Rails. The application covers the following user stories:_
+_This project practices building an API for national parks and birds. The API will list national parks and birds and will meet the following instructions:_
+_For your final Ruby/Rails code review, you may build one of the three APIs below. (You may also build an API of your choosing if you prefer.)_
 
-* _As an admin, I should be able to log in and log out of the application._
-* _As an admin, I should be able to add, update and delete products._
-* _As an admin, I should be able to add reviews._
-* _As an admin, I want to ensure that other users don't have access to CRUD functionality._
-* _As a user, I want to be able to create an account and add a review to a product. (A product can have many comments.) This is the only CRUD functionality a user can have.._
+* _Animal Shelter: Create an API for a local animal shelter. The API will list the available cats and dogs at the shelter._
+* _Local Business Lookup: Create an API for a local business lookup. The API will list restaurants and shops in town._
+* _Parks Lookup: Create an API for state and national parks. The API will list state and national parks._
 
-_In addition it will cover the expectations for following prompt:_
+_You have the freedom to build out your APIs as you wish. At the very least, your API should include the following:_
+* _Full CRUD functionality._
+* _Further exploration of one of the following objectives: authentication, versioning, pagination, Swagger documentation, or CORS._
+* _Complete documentation of API endpoints and the further exploration you did._
 
-_You're in the running for a freelance development job as the developer for Mario's Speciality Coffee Products (or another fictional company of your choosing). First, Mario wants to make sure you're the right person for the job. He's asked you for an MVP and wants it by 5:00 tonight. The stakes are higher than usual, since Mario's old site had thousands of unique visitors each day. If you can get the job, this is a great way to increase your profile as a developer._
+## API Endpoints
+| First Header  | Second Header |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
 
-_In particular, Mario is concerned about the information in his database being correct; your goal for today is to have the most comprehensive validations and callbacks to ensure information is properly saved and formatted in the database._
-
-* _Database:_
-_The site should have functionality to review products so your database should include a one-to-many relationship between Products and Reviews. All products must have a name, cost and country_of_origin. All reviews should have an author, content_body and rating. (A rating can be a number between 1 and 5.) You can include other fields of your choosing as well._
-
-* _Landing Page:_
-_The landing page should include basic information about the company and should allow users to easily navigate to other areas of the site. This page should also include the three most recently added products and the product with the most reviews. See more information in the Scopes section below._
-
-* _Products:_
-_The site needs to include a products section with a list of the tasty products that Mario sells. Each product should be clickable with a detail view._
-
-_Users should be able to add, update and delete new products. Don't worry about user authentication. Assume everyone who visits the site is an admin for now. Users should be able to click an individual product to see its detail page. (You will not be expected to show the product's average rating. That's included in the further exploration section.) Users should be able to add a review to a product._
-
-* _Scopes_
-_Your site should use scopes to display the following information on the site:_
-
-  * _The product with the most reviews._
-  * _The three most recently added products._
-  * _All products made in the USA for buyers that want to buy local products._
-
-* _Validations_
-_Your site should include validations for the following:_
-
-  * _All fields should be filled out, including rating._
-  * _Rating can only be an integer between 1 and 5._
-  * _The review's content_body must be between 50 and 250 characters._
-
-* _Callbacks_
-_Your site should include a callback for the following:_
-
-  * _All products are automatically titleized (first letter of each word capitalized) before they are saved to the database._
-
-* _Seeding_
-_Your project should include seed data for 50 products and 250 reviews. Use Faker with a loop to seed the database._
-
-* _Flash Messages_
-_The project should include flash success and error messages for creating products and reviews.
-
-* _Overall Styling_
-_You'll be demoing this site to the CEO of Mario's Specialty Foods, so it should look presentable._
 
 ## Setup/Installation Requirements
 1. _Ruby and Rails Installations_
@@ -86,16 +52,10 @@ _You'll be demoing this site to the CEO of Mario's Specialty Foods, so it should
 * _To run test use `rspec` on the root directory of the cloned project command line_
 * _To run app in browser use `rails s` or `rails server` on the root directory of the cloned project command line, then enter `http://localhost:3000` in the browser_
 
-5. _Setting admin role_
-* _Open rails console by adding `rails c` in the command line_
-* _To view all users do `User.all`_
-* _Save selected user in a variable, ex. `user = User.last`_
-* _To admin role to user do `user.admin = true` then save `user.save`_
 
 
 ## Known Bugs/Goals
-* _Add full integration test for admin and users_
-* _Improve links, error messages, and flash notice/alert visibility_
+* _Add futher exploration_
 
 
 ## License
