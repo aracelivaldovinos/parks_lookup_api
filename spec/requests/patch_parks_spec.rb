@@ -2,7 +2,7 @@ require 'rails_helper'
 
 describe "update a park route", :type => :request do
   let!(:park) { 
-      FactoryBot.create(:park, area: 'test_area', description: 'test_description', state: 'test_state', name: 'test_name', id: 1)
+    FactoryBot.create(:park, area: 'test_area', description: 'test_description', state: 'test_state', name: 'test_name', id: 1)
   }
   before { put '/parks/1', params: {area: 'patched_test_area'} }
     it 'returns success message' do
@@ -15,7 +15,7 @@ end
 
 describe "update a park route without an area", :type => :request do
   let!(:park) { 
-      FactoryBot.create(:park, area: 'test_area', description: 'test_description', state: 'test_state', name: 'test_name', id: 1)
+    FactoryBot.create(:park, area: 'test_area', description: 'test_description', state: 'test_state', name: 'test_name', id: 1)
   }
   before { put '/parks/1', params: {area: ''} }
     it 'returns success message' do

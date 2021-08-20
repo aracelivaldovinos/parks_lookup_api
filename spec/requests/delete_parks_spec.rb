@@ -1,6 +1,6 @@
 describe "delete a park", :type => :request do
-  let!(:parks) { 
-      FactoryBot.create(:park, area: 'test_area', description: 'test_description', state: 'test_state', name: 'test_name', id: 1)
+  let!(:park) { 
+    FactoryBot.create(:park, area: 'test_area', description: 'test_description', state: 'test_state', name: 'test_name', id: 1)
   }
   before { delete '/parks/1' }
     it 'returns success message' do
