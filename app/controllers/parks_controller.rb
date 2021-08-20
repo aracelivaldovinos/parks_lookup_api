@@ -25,10 +25,10 @@ class ParksController < ApplicationController
     @park.destroy
   end
 
-  private
-  def json_response(object, status = :ok)
-    render json: object, status: status
-  end
+  # private
+  # def json_response(object, status = :ok)
+  #   render json: object, status: status
+  # end
 
   def park_params
     params.permit(:area, :description, :state, :name)
