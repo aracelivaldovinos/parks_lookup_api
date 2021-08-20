@@ -26,3 +26,14 @@ describe "post a park route", :type => :request do
     expect(response).to have_http_status(:created)
   end
 end
+
+describe "post a park route without presence of state", :type => :request do
+
+  before do
+    post '/parks', params: { :area => 'test_area', :description => 'test_description', :state => '', :name => 'test_name' }
+  end
+
+  it 'returns a error message status' do
+    expect(JSON.parse(response.body)).to eq("message" =>  "Validation failed: State can't be blank")
+  end
+end
