@@ -29,13 +29,11 @@ _You have the freedom to build out your APIs as you wish. At the very least, you
 * _Complete documentation of API endpoints and the further exploration you did._
 
 ## API Endpoints
+# Parks
+![Park endpoints](parks.png)
 
-| HTTP Request  |    Route      |  CRUD Action  |  Description  |     Url      | Description   |Description  |     Url      | Description   |
-| ------------- | ------------- | ------------- | ------------- |------------- | ------------- |-------------|------------- |-------------| 
-| Content Cell  | Content Cell  | Content Cell  | Content Cell  | Content Cell | Content Cell  |Content Cell | Content Cell| Content Cell  |
-| Content Cell  | Content Cell  | Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  | Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  | Content Cell  | Content Cell  |
+# Birds
+![Bird endpoints](birds.png)
 
 
 ## Setup/Installation Requirements
