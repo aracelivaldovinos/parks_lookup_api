@@ -29,10 +29,10 @@ _You have the freedom to build out your APIs as you wish. At the very least, you
 * _Complete documentation of API endpoints and the further exploration you did._
 
 ## API Endpoints
-# Parks
+### Parks
 ![Park endpoints](parks.png)
 
-# Birds
+### Birds
 ![Bird endpoints](birds.png)
 
 
