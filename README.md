@@ -12,6 +12,7 @@
 * _HTML_
 * _Bootsrap\CSS_
 * _Ruby Gems: Faker, Kaminari, Launchy, Pry, RSpec-Rails, Shoulda-Matchers, SimpleCov_
+* _Postman_
 
 
 
